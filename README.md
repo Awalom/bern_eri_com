@@ -8,9 +8,9 @@ This web site witll have five pages.
 4. Community Activities
 5. Membership form
 6. About Us
-  6.1 Who we are
-  6.2 Our mission
-  6.3 Our constitution
+  + Who we are
+  + Our mission
+  + Our constitution
   
 
 
