@@ -1,0 +1,16 @@
+<svg width="120" height="70" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="122" height="72" id="canvas_background" fill="#1752d3"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#C48157" transform="matrix(1.2494887113571165,0,0,1.7508933179171717,-12.328949850052593,-14.870821194260381) " xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_1" y="35.120771" x="16.716182" stroke-width="0" fill="#f7f5f2">IEC</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="53.461803" x2="60" y1="53.12847" x1="6.750008" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_4" y2="56.62847" x2="59.875004" y1="56.295136" x1="6.875004" stroke-width="1.5" stroke="#f9f6f4" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="50.461804" x2="59.875004" y1="50.333333" x1="6.875004" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+  <text stroke="#ffffff" transform="matrix(1.0625901222229,0,0,2.3688077779550456,-6.635685637593269,-24.66370190652728) " xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_6" y="34.461806" x="61.563699" stroke-width="0" fill="#f7f5f2">Bern</text>
+ </g>
+</svg>
