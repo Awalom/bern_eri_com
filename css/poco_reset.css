@@ -321,6 +321,18 @@ header #nav {
   width: 130px;
 }
 
+.c_wrapper {
+  background-color: #00f;
+  padding: 0 10px;
+}
+.c_wrapper input {
+  height: 30px;  
+}
+.c_wrapper label, .c_wrapper span, .c_wrapper p  {
+  color: white;
+}
+
+
 
 /* media 
 ======================================*/
