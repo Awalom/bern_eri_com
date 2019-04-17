@@ -306,6 +306,21 @@ header #nav {
   position: relative;
 }
 
+/* --------Contact-us------------------
+======================================*/
+.BS-45P {
+  display: block;
+  width: 380px;
+}
+.BS-30P {
+  display: block;
+  width: 250px;
+}
+.BS-100PX {
+  display: block;
+  width: 130px;
+}
+
 
 /* media 
 ======================================*/

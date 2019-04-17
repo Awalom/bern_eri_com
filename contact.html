@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/icomoon/style.css">
+  <link rel="stylesheet" href="css/poco_reset.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="c_wrapper FCD MT-2 MW-800 MA">
+    <!--Div c_warapper is the container of the form and will be displayed in flex  Colomun-->
+    <div class="c_address FRD MB-3 MT-2 TC"> <!--1st child of c_wrapper-->
+      <!--div c_address is the first child of flex c_wrapper and will be displayed as a flex to display its chiclderen as a colomun-->
+      <div>
+        <span class="i-map-marker IS3EM"></span>
+         <p>Kappelisackerst 61</p>
+      </div>
+      <div>
+        <span class="i-phone IS3EM"></span>
+        <p>+41-77-936-9838</p>
+      </div>
+      <div>
+        <span class="i-email IS3EM"></span>
+        <p>ericom@gmail.com</p>
+      </div>
+    </div>
+
+    <form class="c_form FCD" action=""> <!--2nd child of c_wrapper-->
+      <!-- This form is the second child of div c-wrapper. its display is flex and its child will be the flex items-->
+      <div class="c_identy1 FRD MB-2"> <!--1st child of c_form. which is the first row-->
+        <!--1st child of c_form and it will be desplayed as flex and its child as flex items-->
+        <div> <!--1st child of c_identy-->
+          <label class="BS-45P" for="fn_name">First Name:</label>
+          <input id="fn_name" class="BS-45P" type="text" placeholder="First Name">
+        </div>
+        <div> <!--2nd child of c_identy-->
+          <label class="BS-45P" for="ls_name">Last Name:</label>
+          <input id="ls_name" class="BS-45P" type="text" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="c_identy2 FRD MB-2"> <!--2nd child of c_form-->
+        <div> <!--1st child of c_identy2-->
+          <label class="BS-30P" for="street">Street Name:</label>
+          <input class="BS-30P" id="street" type="text" placeholder="Street name and house number">
+        </div>
+        <div> <!--2nd child of c_identy2-->
+          <label class="BS-30P" for="zip">Zip Code:</label>
+          <input class="BS-30P"id="zip" type="text" placeholder="Zip number">
+        </div>
+        <div> <!--3rd child of c_identy2-->
+          <label class="BS-30P" for="town">Town:</label>
+          <input class="BS-30P" id="town" type="text" placeholder="Name of town or village">
+        </div>
+      </div>
+      <div class="c_massage FCD MB-2"> <!--3rd cild of c_form-->
+        <label for="c_msg">Brief massage:</label>
+        <textarea name="" id="c_msg" cols="30" rows="5"></textarea>
+      </div>
+    </form>
+
+    <div class="c_social FRD"> <!--3rd child of c_wrapper-->
+      <div class="c_group_one FRD MB-1">
+        <span class="i-facebook BS-100PX IS2EM "></span>
+        <span class="i-youtube BS-100PX IS2EM "></span>
+        <span class="i-instagram BS-100PX IS2EM "></span>
+      </div>
+      <div class="c_group_two FRD">
+        <span class="i-whatsapp BS-100PX IS2EM "></span>
+        <span class="i-whatsapp BS-100PX IS2EM "></span>
+        <span class="i-whatsapp BS-100PX IS2EM "></span>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
