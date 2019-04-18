@@ -320,16 +320,28 @@ header #nav {
   display: block;
   width: 130px;
 }
+.c_form {
+  border: 1px solid blanchedalmond;
+}
 
 .c_wrapper {
-  background-color: #00f;
+  background-color: #fff;
   padding: 0 10px;
 }
 .c_wrapper input {
-  height: 30px;  
+  height: 30px;
 }
 .c_wrapper label, .c_wrapper span, .c_wrapper p  {
-  color: white;
+  color: #000;
+}
+.c_wrapper p {
+  font-size: .8em;
+}
+.c_social span {
+  text-align: center;
+}
+.c_form button{
+  height: 30px;
 }
 
 

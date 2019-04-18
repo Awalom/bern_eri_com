@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icomoon';
   src:
-    url('fonts/icomoon.ttf?36ffkr') format('truetype'),
-    url('fonts/icomoon.woff?36ffkr') format('woff'),
-    url('fonts/icomoon.svg?36ffkr#icomoon') format('svg');
+    url('fonts/icomoon.ttf?tk8uyt') format('truetype'),
+    url('fonts/icomoon.woff?tk8uyt') format('woff'),
+    url('fonts/icomoon.svg?tk8uyt#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,119 +23,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.i-more-horizontal:before {
-  content: "\e90e";
-}
-.i-world:before {
-  content: "\e903";
-}
-.i-globe:before {
-  content: "\e903";
-}
-.i-internet:before {
-  content: "\e903";
-}
-.i-network:before {
-  content: "\e903";
-}
-.i-address-book:before {
-  content: "\e904";
-}
-.i-contact:before {
-  content: "\e904";
-}
-.i-book:before {
-  content: "\e904";
-}
-.i-contacts:before {
-  content: "\e904";
-}
-.i-menu:before {
-  content: "\e905";
-}
-.i-list:before {
-  content: "\e905";
-}
-.i-options:before {
-  content: "\e905";
-}
-.i-lines:before {
-  content: "\e905";
-}
-.i-hamburger:before {
-  content: "\e905";
-}
-.i-home:before {
-  content: "\e906";
-}
-.i-house:before {
-  content: "\e906";
-}
-.i-users:before {
-  content: "\e907";
-}
-.i-group:before {
-  content: "\e907";
-}
-.i-team:before {
-  content: "\e907";
-}
-.i-members:before {
-  content: "\e907";
-}
-.i-community:before {
-  content: "\e907";
-}
-.i-collaborate:before {
-  content: "\e907";
-}
-.i-whatsapp:before {
-  content: "\e908";
-}
-.i-brand:before {
-  content: "\e908";
-}
-.i-social:before {
-  content: "\e908";
-}
-.i-envelop:before {
-  content: "\e909";
-}
-.i-mail:before {
-  content: "\e909";
-}
-.i-email:before {
-  content: "\e909";
-}
-.i-contact1:before {
-  content: "\e909";
-}
-.i-letter:before {
-  content: "\e909";
+.i-phone:before {
+  content: "\e902";
 }
 .i-location:before {
-  content: "\e90a";
+  content: "\e903";
 }
-.i-map-marker:before {
-  content: "\e90a";
+.i-mail:before {
+  content: "\e907";
 }
-.i-pin:before {
-  content: "\e90a";
+.i-menu:before {
+  content: "\e904";
 }
-.i-phone:before {
-  content: "\e90b";
+.i-whatsapp:before {
+  content: "\e905";
+  color: #25d366;
 }
-.i-telephone:before {
-  content: "\e90b";
-}
-.i-contact2:before {
-  content: "\e90b";
-}
-.i-support:before {
-  content: "\e90b";
-}
-.i-call:before {
-  content: "\e90b";
+.i-instagram:before {
+  content: "\e906";
+  color: #e4405f;
 }
 .i-viber:before {
   content: "\e90c";
@@ -152,13 +58,4 @@
 .i-facebook:before {
   content: "\e901";
   color: #3b5998;
-}
-.i-instagram:before {
-  content: "\e902";
-}
-.i-brand1:before {
-  content: "\e902";
-}
-.i-social1:before {
-  content: "\e902";
 }
