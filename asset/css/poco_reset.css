@@ -137,7 +137,7 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
-/* Horizontal line
+/* Horizontal line for all pages
 ----------------------------------------------*/
 .hr-1 {
   overflow: visible;
@@ -197,11 +197,22 @@ img {
 
 /* LAYOUT --> COMMON ELEMENTS
 ===================================================================================*/
-/* BODY
+/* containers
 ----------------------------------------------*/
+.big-cont {
+  width: 95%;
+}
+.left-cont{
+  width: 18%;
+}
+.m-cont {
+  width: 80%;
+  border-left: 1px solid red;
+  padding-left: 20px; 
+} 
 /* footer
 ----------------------------------------------*/
-footer {
+ footer {
   height: 150px;
   background-color: #ccc;
   color: black;
@@ -213,11 +224,13 @@ footer #container {
 
 /* pages
 =============================================*/
-/*index
+/*index page
 ---------------------------------*/
 #index {
   width: 100%;
 }
+/*index page header
+---------------------------------*/
 #page-header {
   position: fixed;
   top: 0;
@@ -238,6 +251,8 @@ footer #container {
 #nav a {
   line-height: 4em;
 }
+/*index page banner
+---------------------------------*/
 #banner {
   min-height: 100vh;
   padding: 6em 0;
@@ -252,7 +267,6 @@ footer #container {
 #inner {
   width: 300px;
   background-color: rgba(0, 0, 0, .4);
-  
 }
 #banner header {
 	display: inline-block;
@@ -271,28 +285,18 @@ footer #container {
 	position: relative;
 	text-transform: uppercase;
 }
-#banner p {
-	letter-spacing: 0.1em;
-}
-#index-container {
-  width: 95%;
-}
-#index-container aside {
-  width: 18%;
-}
-#index-container main {
-  width: 80%;
-  border-left: 1px solid red;
-  padding-left: 20px; 
-} 
+/*index page main content
+---------------------------------*/
+
 /*-------page news
 -----------------------------*/
-#news {
+#news-body {
   background-color: #f3f6fa;
 }
 #inner-news {
   width: 290px;
   height: 300px;
+  background-color:whitesmoke;
 }
 #inner-news .photo {
   width: 100%;
@@ -352,33 +356,33 @@ footer #container {
   bottom: 0px;
 
 }
-.event-container li:nth-child(odd) {
-  flex-flow: column-reverse;
-  color: red;
-}
-
 /*----contact
 --------------------------------------------*/
-.c_form {
-  border: 1px solid blanchedalmond;
+#c-wrapper, #c-address, #c-form, #c-socail {
+  min-width: 620px;
+}
+#c-wrapper {
+  padding-left: 1em;
+  border: #e0a156 1px double;
+}
+.BS-45P {
+  display: block;
+  min-width: 300px;
+}
+.BS-30P {
+  display: block;
+  min-width: 200px;
+}
+#c-msg {
+  min-width: 620px;
+}
+#c-submit {
+  min-width: 100px;
+  height: 30px;
+  align-self: center;
 }
 
-.c_wrapper {
-  background-color: #fff;
-  padding: 0 10px;
-}
-.c_wrapper input {
-  height: 30px;
-}
-.c_wrapper label, .c_wrapper span, .c_wrapper p  {
-  color: #000;
-}
-.c_wrapper p {
-  font-size: .8em;
-}
-.c_social span {
-  text-align: center;
-}
-.c_form button{
-  height: 30px;
+.c-group {
+  min-width: 310px;
+  justify-content: space-around;
 }
