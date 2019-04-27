@@ -19,10 +19,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,900">
   <link rel="stylesheet" href="./asset/icomoon/style.css">
   <link rel="stylesheet" href="./asset/css/poco_reset.css">
-  <title>Contact us</title>
+  <title>Membershiü</title>
 </head>
 
-<body id="contact">
+<body id="member">
   <!--Header start here-->
   <header id="page-header" class="FRD BG-white">
     <div id="logo" class="">
@@ -48,7 +48,6 @@
   </header>
   <!--Header end here-->
   <hr class="MT-6 hr-1">
-
   <div id="container" class="FRD MX-auto MT-2 big-cont">
     <aside class="left-cont">
       <div class="MB-1">
@@ -84,75 +83,60 @@
       </div>
     </aside>
     <main id="main" class="m-cont">
-      <!--Contact start here-->
-      <div id="c-wrapper" class="FCD">
-        <!--Div c_warapper is the container of the form and will be displayed in flex  Colomun-->
-        <div id="c-address" class="FRD MT-2 MB-3"> <!--1st child of c_wrapper-->
-          <!--div c_address is the first child of flex c_wrapper and will be displayed as a flex to display its chiclderen as a colomun-->
-          <div class="AC">
-            <span class="i-location IS3EM"></span>
-             <p class="">Kappelisackerst 61</p>
-             <p class="">3063 Ittigen</p>
-          </div>
-          <div class="AC">
-            <span class="i-phone IS3EM"></span>
-            <p>+41-77-936-9838</p>
-          </div>
-          <div class="AC">
-            <span class="i-mail IS3EM"></span>
-            <p>ericom@gmail.com</p>
-          </div>
+      <p>Please fill the following form carefully</p>
+      <form id="membership" class="FCD" action="">
+        <div class="W-100P MB-1">
+          <label for="first-name">First Name:</label>
+          <input id="first-name" class="W-100P" name="first-name" type="text" placeholder="First Name">
         </div>
-        <!--form start here-->
-        <form id="c-form" class="FCD" action=""> <!--2nd child of c_wrapper-->
-          <div class="FRD MB-2">
-            <div> <!--1st child of div FRD-->
-              <label class="BS-45P" for="fn_name">First Name:</label>
-              <input id="fn_name" class="BS-45P" type="text" placeholder="First Name">
-            </div>
-            <div> <!--2nd child of div FRD-->
-              <label class="BS-45P" for="ls_name">Last Name:</label>
-              <input id="ls_name" class="BS-45P" type="text" placeholder="Last Name">
-            </div>
-          </div>
-
-          <div class="FRD MB-2">
-            <div> <!--1st child of FRD-->
-              <label class="BS-30P" for="street">Street Name:</label>
-              <input class="BS-30P" id="street" type="text" placeholder="Street name and house number">
-            </div>
-            <div> <!--2nd child of FRD-->
-              <label class="BS-30P" for="zip">Zip Code:</label>
-              <input class="BS-30P"id="zip" type="text" placeholder="Zip number">
-            </div>
-            <div> <!--3rd child of FRD-->
-              <label class="BS-30P" for="town">Town:</label>
-              <input class="BS-30P" id="town" type="text" placeholder="Name of town or village">
-            </div>
-          </div>
-          <div id="c-massage" class="FCD MB-2">
-            <label for="c-msg">Brief massage:</label>
-            <textarea name="" id="c-msg" cols="30" rows="5">Write your massage please</textarea>
-          </div>
-          <button id="c-submit" class="MB-2">Submit</button>
-        </form>
-
-        <div id="c-social" class="FRD"> 
-          <div class="c-group FRD MB-2">
-            <span class="i-facebook BS-100PX IS2EM"></span>
-            <span class="i-youtube BS-100PX IS2EM"></span>
-            <span class="i-twitter BS-100PX IS2EM"></span>
-          </div>
-          <div class="c-group FRD MB-2">
-            <span class="i-whatsapp BS-100PX IS2EM"></span>
-            <span class="i-instagram BS-100PX IS2EM"></span>
-            <span class="i-twitter BS-100PX IS2EM"></span>
-          </div>
+        <div class="W-100P MB-1">
+          <label for="last-name">Last Name:</label>
+          <input id="last-name" class="W-100P" name="last-name" type="text" placeholder="Last name">
         </div>
-      </div>
+        <div class="W-100P FRD">
+          <label for="age">Date of Birth:</label>
+          <input id="age" class="MB-1" name="age" type="text" placeholder="Date of birth DD/MM/YYYY">
+          <label for="placeof-birth">Place of Birth:</label>
+          <input id="placeof-birth" class="MB-1" name="placeof-birth" type="text" placeholder="Place of birht in Eritrea:">
+          <label for="zoba">Zoba:</label>
+          <input id="zoba" class="MB-1" name="zoba" type="text" placeholder="Zoba in Eritrea:">
+        </div>
+        <div class="FRD W-100P">
+          <label for="gender">Gender:</label>
+          <input id="gender" class="" name="gender" placeholder="Male/Female" type="text">
+          <label for="marital-status">Marital Status:</label>
+          <input id="marital-status" class="" name="marital-status" placeholder="Single/Married" type="text">
+          <label for="numberof-children">Number of Children:</label>
+          <input id="numberof-children" class="" name="numberof-children" placeholder="Number of children" type="text">
+        </div>
+        <hr>
+        <p class="MT-1">Adress in Switherland</p>
+        <div class="FRD W-100P MB-1">
+          <label for="street">Street name and number:</label>
+          <input id="street" class="" name="street" placeholder="street name & number" type="text">
+          <label for="zip-code">Zip:</label>
+          <input id="zip-code" class="" name="zip-code" placeholder="Zip code" type="text">
+          <label for="town">Town or Village:</label>
+          <input id="town" class="" name="town" placeholder="Town or Village" type="text">
+        </div>
+        <div class="FRD W-100P MB-1">
+            <label for="phone">Mobile Number:</label>
+            <input id="phone" class="" name="phone" placeholder="Mobile Number" type="tel">
+            <label for="telefone">Telofone:</label>
+            <input id="telefone" class="" name="telefone" placeholder="Telefone/+41" type="tel">
+            <label for="email">E-mail:</label>
+            <input id="email" class="" name="email" placeholder="E-mail" type="email">
+        </div>
+        <div class="MB-1">
+          <input id="check1" name="check1" type="checkbox"> I have read & understood the <a href="#">constitution</a> of the community. <br>
+          <input id="check2" name="check2" type="checkbox"> I have accepted the <a href="#">terms and conditions</a> of the communty. <br>
+          <input id="check3" name="check3" type="checkbox"> I am 18 years old or older.
+        </div>
+        <input class="MX-auto" type="submit">
+      </form>
     </main>
   </div>
-  <hr>
+
   <footer>
     <div id="container" class="FCD">
       <div class="row1 MB-1">
