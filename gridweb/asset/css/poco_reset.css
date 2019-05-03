@@ -436,9 +436,6 @@ img {
   left: 0px;
   color: white;
   background-color: rgba(0, 0, 0, .4)
-}
-#b-img img:hover {
-  opacity: .3;
 } 
 #b-img h3:hover {
   background-color: rgba(0, 0, 0, 1);
