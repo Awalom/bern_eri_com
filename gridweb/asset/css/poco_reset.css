@@ -491,6 +491,9 @@ img {
   width: 90px;
   border-bottom: 2px solid #e0a156;
 }
+#events ul li:nth-child(even) {
+  flex-flow: column-reverse;
+}
 
 
 
