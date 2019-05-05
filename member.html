@@ -84,14 +84,16 @@
     </aside>
     <main id="main" class="m-cont">
       <p>Please fill the following form carefully</p>
+      <ul id="errorMassages">
+      </ul>
       <form id="membership" class="FCD" action="">
         <div class="W-100P MB-1">
-          <label for="first-name">First Name:</label>
-          <input id="first-name" class="W-100P" name="first-name" type="text" placeholder="First Name">
+          <label for="firstName">First Name:</label>
+          <input id="firstName" class="W-100P" name="first-name" type="text" placeholder="First Name">
         </div>
         <div class="W-100P MB-1">
-          <label for="last-name">Last Name:</label>
-          <input id="last-name" class="W-100P" name="last-name" type="text" placeholder="Last name">
+          <label for="lastName">Last Name:</label>
+          <input id="lastName" class="W-100P" name="last-name" type="text" placeholder="Last name">
         </div>
         <div class="W-100P FRD">
           <label for="age">Date of Birth:</label>
@@ -121,7 +123,7 @@
         </div>
         <div class="FRD W-100P MB-1">
             <label for="phone">Mobile Number:</label>
-            <input id="phone" class="" name="phone" placeholder="Mobile Number" type="tel">
+            <input id="Mobile" class="" name="phone" placeholder="Mobile Number" type="tel">
             <label for="telefone">Telofone:</label>
             <input id="telefone" class="" name="telefone" placeholder="Telefone/+41" type="tel">
             <label for="email">E-mail:</label>
@@ -132,7 +134,8 @@
           <input id="check2" name="check2" type="checkbox"> I have accepted the <a href="#">terms and conditions</a> of the communty. <br>
           <input id="check3" name="check3" type="checkbox"> I am 18 years old or older.
         </div>
-        <input class="MX-auto" type="submit">
+        <button id="submit" class="MX-auto" onclick="validateMembership()">Submit</button>
+
       </form>
     </main>
   </div>
@@ -155,6 +158,8 @@
 
     </div>
   </footer>
+
+  <script src="./asset/js/app.js"></script>
 
 </body>
 
