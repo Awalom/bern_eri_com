@@ -84,9 +84,8 @@
     </aside>
     <main id="main" class="m-cont">
       <p>Please fill the following form carefully</p>
-      <ul id="errorMassages">
-      </ul>
-      <form id="membership" class="FCD" action="">
+      <ul id="errorMassages"></ul>
+      <form id="membership" class="FCD">
         <div class="W-100P MB-1">
           <label for="firstName">First Name:</label>
           <input id="firstName" class="W-100P" name="first-name" type="text" placeholder="First Name">
@@ -97,7 +96,7 @@
         </div>
         <div class="W-100P FRD">
           <label for="age">Date of Birth:</label>
-          <input id="age" class="MB-1" name="age" type="text" placeholder="Date of birth DD/MM/YYYY">
+          <input id="age" class="MB-1" name="age" type="date" placeholder="Date of birth DD/MM/YYYY">
           <label for="placeof-birth">Place of Birth:</label>
           <input id="placeof-birth" class="MB-1" name="placeof-birth" type="text" placeholder="Place of birht in Eritrea:">
           <label for="zoba">Zoba:</label>
@@ -134,7 +133,9 @@
           <input id="check2" name="check2" type="checkbox"> I have accepted the <a href="#">terms and conditions</a> of the communty. <br>
           <input id="check3" name="check3" type="checkbox"> I am 18 years old or older.
         </div>
-        <button id="submit" class="MX-auto" onclick="validateMembership()">Submit</button>
+        <input id="submit" type="submit" value="submit" class="MX-auto">
+  
+        
 
       </form>
     </main>
@@ -159,6 +160,8 @@
     </div>
   </footer>
 
+  
+  
   <script src="./asset/js/app.js"></script>
 
 </body>

@@ -575,6 +575,19 @@ footer #container {
 #membership label {
   display: none;
 }
-body * {
-  *border: 1px solid green;
+
+/*=========MEDIA QUERY
+=======================================*/
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
+@media only screen and (max-width: 400px) {
+  
 }

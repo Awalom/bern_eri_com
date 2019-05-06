@@ -283,7 +283,7 @@ img {
   grid-column: 1/5;
   grid-row: 1/2;
   position: fixed;
-  min-height: 70px;
+  height: 50px;
   width: 100%;
   background-color: #fff;
   box-shadow: 10px 10px 10px;
@@ -333,6 +333,9 @@ img {
 ----------------------------------------------*/
 #logo {
   min-width: 120px;
+}
+#logo img {
+  height: 50px;
 }
 #nav {
   min-width: 390px;
@@ -557,7 +560,7 @@ img {
 /* MEDIA QUESRY
 ==============================================*/
 
-@media only screen and (max-width: 740px) {
+/* @media only screen and (max-width: 740px) {
   #header {
     flex-flow: column;
   }
@@ -568,12 +571,75 @@ img {
     padding: 0px;
   }
   
-}
-@media only screen and (max-width: 400px) {
-  
-}
+} */
 
+@media only screen and (max-width: 850px) {
+  #header #social {
+    display: none;
+    
+  }
+  #container {
+    grid-template-columns: 1fr;
+  }
+  #header {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: red;
+  }
+  #banner {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 400px;
+    margin-top: 80Px;
+  }
+  #main {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  #news {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  #events {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  #membership {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    background-color: blueviolet;
+  }
+  #about-us {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    background-color: gold;
+  }
+  #aside {
+    grid-column: 1/2;
+    grid-row: 8/9;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+  }
 
-body * {
-  *border: 1px solid green;
+  #footer {
+    grid-column: 1/2;
+    grid-row: 9/10;
+    background-color: black;
+  }
+}
+@media only screen and (max-width: 685px) {
+  #header {
+    height: auto;
+    flex-flow: column;
+  }
+  #logo img {
+    width: 120px;
+  }
+}
+@media only screen and (max-width: 571px) {
+  #nav ul {
+    flex-flow: column;
+    justify-content: flex-end;
+  }
 }
