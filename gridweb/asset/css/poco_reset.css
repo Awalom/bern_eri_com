@@ -149,7 +149,7 @@ img {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .FCD {
@@ -282,7 +282,6 @@ img {
 #header {
   grid-column: 1/5;
   grid-row: 1/2;
-  position: fixed;
   height: 50px;
   width: 100%;
   background-color: #fff;
@@ -294,7 +293,6 @@ img {
   grid-column: 1/5;
   grid-row: 2/3;
   height: 400px;
-  margin-top: 80Px;
 }
 #aside {
   grid-column: 1/2;
@@ -584,13 +582,12 @@ img {
   #header {
     grid-column: 1/2;
     grid-row: 1/2;
-    background-color: red;
+    background-color: white;
   }
   #banner {
     grid-column: 1/2;
     grid-row: 2/3;
     height: 400px;
-    margin-top: 80Px;
   }
   #main {
     grid-column: 1/2;
@@ -638,8 +635,20 @@ img {
   }
 }
 @media only screen and (max-width: 571px) {
-  #nav ul {
+  #header {
     flex-flow: column;
     justify-content: flex-end;
+  }
+  #nav {
+    width: 100%;
+  }
+  #nav ul {
+    background-color: #ddd;
+    flex-flow: column;
+  }
+  #nav ul a {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
   }
 }
